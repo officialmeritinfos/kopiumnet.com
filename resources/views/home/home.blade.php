@@ -220,9 +220,6 @@
                                 </div>
                                 <div class="content">
                                     <a href="{{route('home.service.detail',['slug'=>$service->slug])}}"><h6 class="title">{{$service->title}}</h6></a>
-                                    <p>
-                                        {!! \Illuminate\Support\Str::words($service->content,20) !!}
-                                    </p>
                                     <div class="more-btn">
                                         <a href="{{route('home.service.detail',['slug'=>$service->slug])}}"><span>Service Details</span></a>
                                         <div class="icons">
